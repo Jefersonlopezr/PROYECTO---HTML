@@ -1,22 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background: linear-gradient(to right, #0c991f, #3d9e66a1);
     color: #333;
+    margin-bottom: -20px;
 
 }
 
 .container {
-    max-width: 360px;
+    max-width: 300px;
     margin: 0 auto;
-    padding: 20px;
+    padding: auto;
     text-align: center;
 }
 
-.logo {
-    width: 120px;
-    margin: 20px auto;
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box
 }
 
 h1, h2 {
@@ -38,7 +47,7 @@ button, .btn {
     width: 100%;
     padding: 14px;
     margin-top: 15px;
-    background-color: #4d96f5;
+    background-color: #097a38;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -48,7 +57,7 @@ button, .btn {
 }
 
 a {
-    color: #4d96f5;
+    color: #011c06;
     text-decoration: none;
     font-size: 14px;
 }
@@ -76,19 +85,34 @@ a {
 }
 
 .header {
-    background: linear-gradient(to right, #b64fc8, #4d96f5);
+    /* background: linear-gradient(to right, #0c991f, #3d9e66a1); */
     color: white;
-    padding: 16px 0;
-    font-size: 18px;
-    border-radius: 0 0 10px 10px;
+    display: grid;
+    place-items: center;
+    height: 10VH;
 }
 
-.header-logo {
+.logo {
+    width: 20%;
+    height:90%;
+    object-fit: cover;
+    margin: 20px auto;
+    align-items: center;
     display: block;
-    margin: 0 auto;
-    width: 150px;
 }
+/* .header-logo {
+display: block;
+margin: 0 auto;
+width: 150px;
+} */
 
+.logo-inicio {
+    display: flex;
+    width: 160px;
+    place-items: center;;
+    margin-left: -70px;
+
+}
 .profile {
     display: flex;
     align-items: center;
@@ -139,3 +163,37 @@ a {
     font-size: 24px;
     color: #aaa;
 }
+
+.logo-1{
+    display: block;
+    margin: 0 auto;
+    width: 10px;
+    padding: 30px 0;
+}
+
+.caja {
+    border: 1px solid #ddd;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    padding: 40px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    height: 90vh;
+    margin-top: 13%;
+    
+}
+
+.recuerdeme{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+    margin-right: 175px;
+}
+
