@@ -46,3 +46,62 @@ button, .btn {
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+a {
+    color: #4d96f5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.checkbox-container {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header {
+    background: linear-gradient(to right, #b64fc8, #4d96f5);
+    color: white;
+    padding: 16px 0;
+    font-size: 18px;
+    border-radius: 0 0 10px 10px;
+}
+
+.header-logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.status {
+    color: #888;
+    font-size: 14px;
+}

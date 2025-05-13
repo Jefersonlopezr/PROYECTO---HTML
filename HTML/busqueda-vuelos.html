@@ -7,22 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="top">
+    <div class="header">
+        <img src="LOGO" alt="LOGO JL">
+    </div>
+    <div class="container">
     <form class="form-group" action="/HTML/vuelos-disponibles.html" method="get" autocomplete="off">
         <img src="" alt="foto perfil"> Jeferson Lopez
         <a href=""><br>Cerrar Sesión</a>
         <hr>
         <h2>Busqueda de Vuelos</h2>
-        <input type="checkbox" id="ida" name="ida" value="ida">
-        <label for="ida">Solo Ida</label>
-        <br><br>
+        <div class=""checkbox-container>
+            <input type="checkbox" id="ida" name="ida" value="ida"><label for="ida">Solo Ida</label>
+        </div>
         <input type="texto" id="origen" name="origen" placeholder="Origen">
-        <br><br>
         <input type="text" id="destino" name="destino" placeholder="Destino">
-        <br><br>
         <input type="text" id="fecha-salida" name="fecha-salida" placeholder="Fecha de salida">
-        <br><br>
         <input type="text" id="fecha-regreso" name="fecha-regreso" placeholder="Fecha de regreso">
-        <br><br>
         <button class="boton "type="submit">Buscar</button>
+    </form>
+    </div>
 </html>
