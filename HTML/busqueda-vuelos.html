@@ -7,23 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <img src="LOGO" alt="LOGO JL">
+    <div class="">
+    <img src="/MULTIMEDIA/LOGO.png" class="logo" alt="LOGO">
     </div>
+    <section class="caja">
     <div class="container">
+        <div class="cajita">
+            <img src="/MULTIMEDIA/LOGO USER.png" class="logo-user" alt="foto perfil"> 
+            <div class="cajitadecajita">   
+                <span id="name">Jeferson Lopez</span>
+                <a href="/HTML/index.html" class="linea">Cerrar Sesión</a>
+            </div> 
+        </div>
     <form class="form-group" action="/HTML/vuelos-disponibles.html" method="get" autocomplete="off">
-        <img src="" alt="foto perfil"> Jeferson Lopez
-        <a href="/HTML/index.html"><br>Cerrar Sesión</a>
         <hr>
         <h2>Busqueda de Vuelos</h2>
-        <div class=""checkbox-container>
-            <input type="checkbox" id="ida" name="ida" value="ida"><label for="ida">Solo Ida</label>
+        <div class="ida">
+            <input type="checkbox" id="ida">
+            <label for="ida">Solo ida</label>
         </div>
-        <input type="texto" id="origen" name="origen" placeholder="Origen">
+        <input type="text" id="origen" name="origen" placeholder="Origen">
         <input type="text" id="destino" name="destino" placeholder="Destino">
         <input type="text" id="fecha-salida" name="fecha-salida" placeholder="Fecha de salida">
         <input type="text" id="fecha-regreso" name="fecha-regreso" placeholder="Fecha de regreso">
         <button class="boton "type="submit">Buscar</button>
     </form>
+    </div>  
     </div>
+    </section>
 </html>
