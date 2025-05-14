@@ -4,33 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vuelos_disponibles</title>
-    <link rel="stylesheet" href="/styles.css"
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <div class="header">
-        <img src="logo.png" alt="ACME AIR">
-        JL AIRLINES<br><small>Flying to your dreams</small>
+    <div class="">
+    <img src="/MULTIMEDIA/LOGO.png" class="logo" alt="LOGO">
     </div>
+    <section class="caja">
     <div class="container">
-        <div><strong>Jeferson Lopez</strong> <br><a href="#">Cerrar Sesión</a></div>
+        <div class="cajita">
+            <img src="/MULTIMEDIA/LOGO USER.png" class="logo-user" alt="foto perfil"> 
+            <div class="cajitadecajita">   
+                <span id="name">Jeferson Lopez</span>
+                <a href="/HTML/index.html" class="linea">Cerrar Sesión</a>
+            </div> 
+        </div>
+        <hr>
         <h2>Vuelos disponibles</h2>
-        <p>Bogotá - Barranquilla <br>Septiembre - 29</p>
+        <div class="parrafo"><p>Bogotá - Barranquilla <br>Septiembre - 29</p></div>
 
     <div class="card">
-        <div>05:30 - 06:30<br><small>1h 30 min</small></div>
-        <div>VAA025 <br><strong>COP150.600</strong></div>
+        <img src="/MULTIMEDIA/avion.png">
+        <div class="ticket">05:30 - 06:30<br><small><div class="ticket-2">1h 30 min</div></small></div>
+        <div class="ticket-3"><small>VAA025<br></small><strong><div class="ticket-4">COP150.600</div></strong></div>
     </div>
 
     <div class="card">
-        <div>10:30 - 12:05<br><small>1h 30 min</small></div>
-        <div>VAA412 <br><strong>COP260.050</strong></div>
+        <img src="/MULTIMEDIA/avion.png">
+        <div class="ticket">10:30 - 12:05<br><small><div class="ticket-2">1h 30 min</div></small></div>
+        <div class="ticket-3"><small>VAA412<br></small><strong><div class="ticket-4">COP260.050</div></strong></div>
     </div>
 
     <div class="card">
-        <div>14:15 - 15:45<br><small>1h 30 min</small></div>
-        <div>VAA836 <br><strong>COP150.600</strong></div>
+        <img src="/MULTIMEDIA/avion.png">
+        <div class="ticket">14:15 - 15:45<br><small><div class="ticket-2">1h 30 min</div></small></div>
+        <div class="ticket-3"><small>VAA836<br></small><strong><div class="ticket-4">COP150.600</div></strong></div>
     </div>
-    <a href="/HTML/vista-inicio.html" class="boton">VOLVER</a>
+    <form action="/HTML/vista-inicio.html" method="get" class="boton">
+        <button>VOLVER</button>
+    </form>
+    
 </div>
+</section>
 </body>
 </html>
