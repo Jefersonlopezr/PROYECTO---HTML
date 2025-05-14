@@ -11,7 +11,6 @@ body {
     background: linear-gradient(to right, #0c991f, #3d9e66a1);
     color: #333;
     margin-bottom: -20px;
-
 }
 
 .container {
@@ -19,6 +18,7 @@ body {
     margin: 0 auto;
     padding: auto;
     text-align: center;
+    margin-bottom: 110px;
 }
 
 input[type="email"],
@@ -85,11 +85,10 @@ a {
 }
 
 .header {
-    /* background: linear-gradient(to right, #0c991f, #3d9e66a1); */
+    background: linear-gradient(to right, #0c991f, #3d9e66a1);
     color: white;
     display: grid;
     place-items: center;
-    height: 10VH;
 }
 
 .logo {
@@ -100,19 +99,14 @@ a {
     align-items: center;
     display: block;
 }
-/* .header-logo {
-display: block;
-margin: 0 auto;
-width: 150px;
-} */
 
 .logo-inicio {
     display: flex;
     width: 160px;
     place-items: center;;
     margin-left: -70px;
-
 }
+
 .profile {
     display: flex;
     align-items: center;
@@ -184,9 +178,9 @@ width: 150px;
     position: relative;
     z-index: 1;
     background-color: white;
-    height: 90vh;
-    margin-top: 13%;
-    
+    height: 85vh;
+    padding: auto;
+    text-align: center;
 }
 
 .recuerdeme{
@@ -195,5 +189,15 @@ width: 150px;
     gap: 10px;
     margin-left: 5px;
     margin-right: 175px;
+}
+
+.logo-user {
+    height: 50px;
+    margin-right: 80%;
+}
+
+#name{
+    margin: 0%;
+    padding: 0%;  
 }
 
