@@ -1,324 +1,392 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, #073e0e, #097a38);
-    color: #333;
-    margin-bottom: -20px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #073e0e, #097a38);
+  color: #333;
+  margin-bottom: -20px;
 }
 
 .container {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: auto;
-    text-align: center;
-    margin-bottom: 110px;
-    display: flex;
-    flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: auto;
+  text-align: center;
+  margin-bottom: 110px;
+  display: flex;
+  flex-direction: column;
 }
 
 input[type="email"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-h1, h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
+h1,
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-input[type="text"], select {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    box-sizing: border-box;
-    font-size: 16px;
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-button, .btn {
-    width: 100%;
-    padding: 14px;
-    margin-top: 15px;
-    background-color: #097a38;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+button,
+.btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  background-color: #097a38;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 a {
-    color: #011c06;
-    text-decoration: none;
-    font-size: 14px;
+  color: #011c06;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .checkbox-container {
-    text-align: left;
-    margin: 10px 0;
+  text-align: left;
+  margin: 10px 0;
 }
 
 .card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 6px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 6px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card img {
-    width: 40px;
-    height: 40px;
-    margin-left: 0px;
+  width: 40px;
+  height: 40px;
+  margin-left: 0px;
 }
 
 .header {
-    background: linear-gradient(to right, #0c991f, #3d9e66a1);
-    color: white;
-    display: grid;
-    place-items: center;
+  background: linear-gradient(to right, #0c991f, #3d9e66a1);
+  color: white;
+  display: grid;
+  place-items: center;
 }
 
 .logo {
-    width: 20%;
-    height:90%;
-    object-fit: cover;
-    margin: 20px auto;
-    align-items: center;
-    display: block;
+  width: 20%;
+  height: 90%;
+  object-fit: cover;
+  margin: 20px auto;
+  align-items: center;
+  display: block;
 }
 
 .logo-inicio {
-    display: flex;
-    width: 160px;
-    place-items: center;;
-    margin-left: -70px;
+  display: flex;
+  width: 160px;
+  place-items: center;
+  margin-left: -70px;
 }
 
 .profile {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .profile img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .status {
-    color: #888;
-    font-size: 14px;
+  color: #888;
+  font-size: 14px;
 }
 
 .card-option {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #333;
-    transition: box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: box-shadow 0.2s ease;
 }
 
 .card-option:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .card-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
 }
 
 .card-text {
-    flex-grow: 1;
-    font-size: 16px;
+  flex-grow: 1;
+  font-size: 16px;
 }
 
 .card-arrow {
-    font-size: 24px;
-    color: #aaa;
+  font-size: 24px;
+  color: #aaa;
 }
 
-.logo-1{
-    display: block;
-    margin: 0 auto;
-    width: 10px;
-    padding: 30px 0;
+.logo-1 {
+  display: block;
+  margin: 0 auto;
+  width: 10px;
+  padding: 30px 0;
 }
 
 .caja {
-    border: 1px solid #ddd;
-    border-top-left-radius: 3%;
-    border-top-right-radius: 3%;
-    padding: 40px;
-    margin: 10px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    z-index: 1;
-    background-color: white;
-    height: 85vh;
-    padding: auto;
-    text-align: center;
+  border: 1px solid #ddd;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  padding: 40px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  height: 85vh;
+  padding: auto;
+  text-align: center;
 }
 
-.recuerdeme{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 5px;
-    margin-right: 175px;
+.recuerdeme {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 5px;
+  margin-right: 175px;
 }
 
 .logo-user {
-    height: 50px;
-    margin-right: 10px;
+  height: 50px;
+  margin-right: 10px;
 }
 
-#name{
-    margin: 0%;
-    padding: 0%;  
+#name {
+  margin: 0%;
+  padding: 0%;
 }
 
-.cajita  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 5px;
-    margin-top: -20px;
+.cajita {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: -20px;
 }
 
 .cajitadecajita {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .ida {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
 
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .ida input {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .linea {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .card-new {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 10px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h4 {
-    text-decoration-color: #333;
+  text-decoration-color: #333;
 }
 
 .ticket {
-    text-align: left;
-    font-size: small;
-    margin-right: 42px;
-    margin-bottom: 10px;
+  text-align: left;
+  font-size: small;
+  margin-right: 42px;
+  margin-bottom: 10px;
 }
 
 .ticket-2 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .ticket-3 {
-    text-align: right;
-    margin-bottom: 10px;
-    margin-top: 4px
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 4px;
 }
 
 .ticket-4 {
-    margin-top:5px
+  margin-top: 5px;
 }
 
 .parrafo {
-    text-align: left;
+  text-align: left;
 }
 
 .ticket-5 {
-    text-align: right;
-    margin-right: 12px;
-    font-size: 25px;
+  text-align: right;
+  margin-right: 12px;
+  font-size: 25px;
 }
 
 .ticket-6 {
-    text-align: left;
-    font-size: small;
-    margin-bottom: 10px    
+  text-align: left;
+  font-size: small;
+  margin-bottom: 10px;
 }
 
 .ticket-7 {
-    text-align: right;
-    margin-bottom: 10px;
-    margin-top: 4px;
-    font-size:small;
-    line-height: 0.9;
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  font-size: small;
+  line-height: 0.9;
 }
 
 .cuerpo-principal {
-    background: rgba(255, 255, 255, 0.797);
+  background: rgba(255, 255, 255, 0.797);
 }
 
 .container-2 {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: auto;
-    text-align: center;
-    margin-bottom: 110px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: auto;
+  text-align: center;
+  margin-bottom: 110px;
 }
 
-.recuerdeme-2{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 5px;
-    margin-right: 175px;
+.recuerdeme-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 5px;
+  margin-right: 175px;
 }
 
 .container-2 input {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    box-sizing: border-box;
-    font-size: 16px;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    font-family: "Raleway", sans-serif;
+    color: #333;
+  }
+
+  .body-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    font-family: "Raleway", sans-serif;
+    color: #333;
+  }
+
+  body::before {
+    content: "";
+    display: block;
+    background-image: url("./MULTIMEDIA/LOGO\ SIN\ FONDO.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: clamp(200px, 50vw, 500px);
+    height: 0;
+    padding-top: min(40%, 400px);
+    margin: 0 auto 30px;
+    overflow: hidden;
+  }
+
+  body::after {
+    content: "Esta aplicación está optimizada para dispositivos móviles. Por favor, accede desde tu smartphone.";
+    display: block;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  body > :not(::before):not(::after) {
+    display: none !important;
+  }
+
+  main {
+    display: none;
+  }
 }
