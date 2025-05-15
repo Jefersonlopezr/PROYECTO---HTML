@@ -6,6 +6,9 @@
 
 Este sistema fue construido utilizando únicamente **HTML5 y CSS3**, bajo un enfoque **mobile-first**, restringiendo el acceso desde computadoras de escritorio mediante `media queries`.
 
+Se puede observar el de la aplicación en Github Pages aqui:
+[Dale click aquí](https://jefersonlopezr.github.io/PROYECTO---HTML/)
+
 ## 📷 Demostración visual de la interfaz
 
 ![alt text](./MULTIMEDIA/Captura%20de%20pantalla.png)
